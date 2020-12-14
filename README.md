@@ -1,46 +1,12 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+Tasked to create a day calendar from times 9am-7pm, that know's the current time and date and can save appointments to local storage.
+We will use the API called  [Moment.js](https://momentjs.com/) to create data inputs for time and date.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+# Example
+The scheduler should work as below: <br>
+![Imgur](https://i.imgur.com/7Wl5RTN.gif)
 
-## User Story
-
-```
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
-
-## Acceptance Criteria
-
-```
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
-
-The following animation demonstrates the application functionality:
-
-![day planner demo](./Assets/05-third-party-apis-homework-demo.gif)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+# Problems
+I feel like I may have done a much longer way creating a div for each time slot to make sure there was somewhere to input data. Could probably have found a way to run a loop to create divs based on an array.
+I ran into some styling issues due to it using real time and me working on it outside the hours it encompassed, leading to certain colours throughout the sheet that required me to change my pc time to allow for testing. Had to find many bits of code to put together to make the code work together and produce the desired result, a lot of time allocated to complete.
